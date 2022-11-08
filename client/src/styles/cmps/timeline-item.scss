@@ -1,0 +1,93 @@
+.timeline_item {
+    height: 120px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #c5c5c5;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 20px;
+    position: relative;
+  
+    &_details {
+      display: flex;
+      align-items: center;
+
+      .fa-xmark{
+        margin-right: 12px;
+      }
+    }
+  
+    &_labels {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+  
+      &_header {
+        font-weight: bold;
+        font-size: 18px;
+      }
+  
+      &_subHeader {
+        font-size: 14px;
+      }
+    }
+  
+    &_icon {
+      width: 48px;
+      height: auto;
+  
+      &_container {
+        background-color: #02c6c5;
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+    }
+  
+    &_actions {
+      display: flex;
+      color: #007473;
+      align-items: center;
+  
+      &_view {
+        display: flex;
+        font-weight: bold;
+        cursor: pointer;
+      }
+  
+      &_score {
+        font-size: 16px;
+        margin: 20px;
+      }
+    }
+
+    .junior {
+        background-color: #f7ae11;
+      
+        &_text {
+          background-color: #fdc75d;
+          font-size: 9px;
+          font-weight: bold;
+          border-radius: 50%;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+      }
+    }
+    .line {
+      border-left: 2px solid #c5c5c5;
+      height: 30px;
+      margin-left: 70px;
+    }

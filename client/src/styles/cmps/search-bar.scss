@@ -1,0 +1,39 @@
+.search-bar{
+    margin: 20px;
+    display: flex;
+
+    .input-container{
+        margin-right: -5px; 
+        margin-left: -15px
+    }
+    .search-input {
+        height: 29px;
+        padding: 5px;
+        width: 330px;
+        border-radius: 5px;
+        border: 2px solid #c5c5c5;
+        font-weight: bold;
+        font-family: sans-serif !important;
+      }
+      
+      .icon-container {
+        background-color: #017575;
+        color: white;
+        padding: 5px;
+        border-radius: 0 4px 4px 0;
+        width: 30px;
+        height: 29px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      
+      img {
+        width: 32px;
+        height: 32px;
+      }
+
+
+
+}
